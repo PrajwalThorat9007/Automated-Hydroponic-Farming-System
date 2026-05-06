@@ -5,9 +5,9 @@ import time
 import pandas as pd
 
 # ===== FIREBASE INIT =====
-cred = credentials.Certificate("smartphcontrol-firebase-adminsdk-fbsvc-812580f4ee.json")
+cred = credentials.Certificate("firebase-key.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://smartphcontrol-default-rtdb.firebaseio.com/'
+    'databaseURL': 'https://firbase_url.com/'
 })
 
 # ===== LOAD MODEL =====
